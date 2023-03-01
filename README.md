@@ -4,8 +4,8 @@ The goal of this task is to help Beks, who is using machine learning and neural 
 
 ## Results Summary:
 ### Data Preprocessing:
-Target variable(s): IS_SUCCESSFUL
-Feature variable(s): APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT (standardized)
+Target variable(s): IS_SUCCESSFUL.
+Feature variable(s): APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT (standardized).
 Variables to remove from input data: EIN and NAME
 ### Compiling, Training, and Evaluating the Model:
 Neural Network Model architecture:
