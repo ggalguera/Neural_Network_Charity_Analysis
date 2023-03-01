@@ -8,15 +8,11 @@ Target variable(s): IS_SUCCESSFUL.
 Feature variable(s): APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT (standardized).
 Variables to remove from input data: EIN and NAME
 ### Compiling, Training, and Evaluating the Model:
-Neural Network Model architecture:
-First hidden layer with 18 neurons and relu activation function.
-Second hidden layer with 8 neurons and relu activation function.
-Output layer with sigmoid activation function.
-Target model performance was not achieved.
+The architecture of the Neural Network Model consisted of three layers: the first hidden layer had 18 neurons and used the relu activation function, the second hidden layer had 8 neurons and also used the relu activation function, and the output layer had the sigmoid activation function. However, the model did not achieve its target performance.
 ### Steps taken to try and increase model performance:
-Added a new layer with 8 neurons.
-Dropped ASK_AMT and tried standardizing it.
-Tried different activation functions: sigmoid, tanh, softmax, and linear.
+* Added a new layer with 8 neurons.
+* Dropped ASK_AMT and tried standardizing it.
+* Tried different activation functions: sigmoid, tanh, softmax, and linear.
 
 ## Summary
 The deep learning model that was built to predict the success of funding for organizations by Alphabet Soup using various metadata fields resulted in an accuracy of approximately 71.35%, which was not able to achieve the target performance.
